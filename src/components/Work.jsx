@@ -1,20 +1,22 @@
 import ProjectCard from "./ProjectCard";
 
+const basePath = import.meta.env.VITE_BASE_PATH;
+
 const works = [
     {
-      imgSrc: '/images/hexure.png',
+      imgSrc: `${basePath}/images/hexure.png`,
       title: 'Insurance Technologies (Hexure)',
       desc: 'Led the front-end development of a high-traffic e-commerce platform, enhancing user experience and optimizing performance.',
       tags: ['MERN', 'Websockets', 'Redux', 'APIs Intergeration', 'Sass', 'Storybook', 'Styled-Components', 'Azure DevOps'],
     },
     {
-      imgSrc: '/images/hbf.jpeg',
+      imgSrc: `${basePath}/images/hbf.jpeg`,
       title: 'Social Networking platform',
       desc:'Contributed to the development of a niche social networking platform, focusing on scalability, real-time interactions, and performance optimization.',
-      tags: ['AngularJS', 'Bootstrap', 'Sass', 'Socket.io', 'NodeJS', 'NodeJS', 'Express.Js', 'Babel'],
+      tags: ['AngularJS', 'Bootstrap', 'Sass', 'Socket.io', 'NodeJS', 'Express.Js', 'Webpack', 'Babel'],
     },
     {
-      imgSrc: '/images/comm.jpg',
+      imgSrc: `${basePath}/images/comm.jpg`,
       title: 'Tool for global communication',
       desc:'Developed a real-time collaboration tool for global communication, focusing on performance, usability, and seamless integration with third-party services.',
       tags: ['Vue.js', 'Bootstrap', 'Sass', 'Socket.io', 'NodeJS', 'Express.Js', 'Webpack', 'Babel', 'AWS', 'Passport.js', 'Jest'],

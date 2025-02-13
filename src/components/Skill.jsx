@@ -1,113 +1,115 @@
 import SkillCard from "./SkillCard";
 
+const basePath = import.meta.env.VITE_BASE_PATH;
+
 const skillItem = [
   {
-    imgSrc: "/images/react.svg",
+    imgSrc: `${basePath}/images/react.svg`,
     label: "ReactJS",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/nextJs.png",
+    imgSrc: `${basePath}/images/nextJs.png`,
     label: "NextJS",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/angular.png",
+    imgSrc: `${basePath}/images/angular.png`,
     label: "Angular",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/nodejs.svg",
+    imgSrc: `${basePath}/images/nodejs.svg`,
     label: "NodeJS",
     desc: "Web Server",
   },
   {
-    imgSrc: "/images/expressjs.svg",
+    imgSrc: `${basePath}/images/expressjs.svg`,
     label: "ExpressJS",
     desc: "Node Framework",
   },
   {
-    imgSrc: "/images/koa.png",
+    imgSrc: `${basePath}/images/koa.png`,
     label: "Koa",
     desc: "Node Framework",
   },
   {
-    imgSrc: "/images/dotnet.png",
+    imgSrc: `${basePath}/images/dotnet.png`,
     label: ".Net",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/javascript.svg",
+    imgSrc: `${basePath}/images/javascript.svg`,
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "/images/ts.png",
+    imgSrc: `${basePath}/images/ts.png`,
     label: "TypeScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "/images/tailwindcss.svg",
+    imgSrc: `${basePath}/images/tailwindcss.svg`,
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/css3.svg",
+    imgSrc: `${basePath}/images/css3.svg`,
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/figma.svg",
+    imgSrc: `${basePath}/images/figma.svg`,
     label: "Figma",
     desc: "Design tool",
   },
   {
-    imgSrc: "/images/mongodb.svg",
+    imgSrc: `${basePath}/images/mongodb.svg`,
     label: "MongoDB",
     desc: "Database",
   },
   {
-    imgSrc: "/images/sql.png",
+    imgSrc: `${basePath}/images/sql.png`,
     label: "SQL",
     desc: "Database",
   },
   {
-    imgSrc: "/images/jira.png",
+    imgSrc: `${basePath}/images/jira.png`,
     label: "Jira",
     desc: "Tool",
   },
   {
-    imgSrc: "/images/git.png",
+    imgSrc: `${basePath}/images/git.png`,
     label: "Git",
     desc: "Tool",
   },
   {
-    imgSrc: "/images/aws.png",
+    imgSrc: `${basePath}/images/aws.png`,
     label: "AWS",
     desc: "DevOps",
   },
   {
-    imgSrc: "/images/azure.png",
+    imgSrc: `${basePath}/images/azure.png`,
     label: "Azure",
     desc: "DevOps",
   },
   {
-    imgSrc: "/images/socket.png",
+    imgSrc: `${basePath}/images/socket.png`,
     label: "Socket.io",
     desc: "Real-time communication",
   },
   {
-    imgSrc: "/images/selenium.jpeg",
+    imgSrc: `${basePath}/images/selenium.jpeg`,
     label: "Selenium",
     desc: "Testing",
   },
   {
-    imgSrc: "/images/jest.jpeg",
+    imgSrc: `${basePath}/images/jest.jpeg`,
     label: "Jest",
     desc: "Testing",
   },
   {
-    imgSrc: "/images/cypress.jpeg",
+    imgSrc: `${basePath}/images/cypress.jpeg`,
     label: "Cypress",
     desc: "Testing",
   },
