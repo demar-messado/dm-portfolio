@@ -104,7 +104,7 @@ const skillItem = [
     desc: "Testing",
   },
   {
-    imgSrc: `${basePath}/images/jest.jpeg`,
+    imgSrc: `${basePath}/images/jest.png`,
     label: "Jest",
     desc: "Testing",
   },
